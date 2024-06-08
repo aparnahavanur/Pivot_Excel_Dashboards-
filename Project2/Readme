@@ -1,0 +1,43 @@
+"# Student Performance and Engagement Dataset
+
+## Description
+This dataset contains records of students enrolled in various academic programs at an educational institution. It includes information on their enrollment status, test scores, completed courses, alumni donations, and faculty ratings. The dataset can be used to analyze student performance, engagement, and contributions to the institution.
+
+## Columns
+1. **Date**: The date when the record was created.
+2. **StudentID**: Unique identifier assigned to each student.
+3. **Program**: The academic program the student is enrolled in (e.g., BCOM - Bachelor of Commerce, BBA - Bachelor of Business Administration, BSC - Bachelor of Science, BE - Bachelor of Engineering).
+4. **EnrollmentStatus**: The current status of the student's enrollment. Possible values are:
+    - `Completed`: The student has completed the program.
+    - `Dropped`: The student has dropped out of the program.
+    - `Enrolled`: The student is currently enrolled in the program.
+5. **TestScore**: The score achieved by the student in a particular test. This is likely a percentage or a score out of 100.
+6. **CompletedCourses**: The number of courses the student has successfully completed.
+7. **AluminiDonation**: Indicates whether the student has made an alumni donation. Possible values are:
+    - `Yes`: The student has made a donation.
+    - `No`: The student has not made a donation.
+8. **FacultyRating**: The rating given by the student to the faculty, on a scale from 1 to 5, with 5 being the highest.
+9. **Semester**: The current semester in which the student is enrolled.
+10. **AluminiDonationFlag**: A binary flag indicating whether the student has made an alumni donation:
+    - `1`: The student has made a donation.
+    - `0`: The student has not made a donation.
+
+## Usage
+This dataset can be used for various analyses, such as:
+- Analyzing student performance across different programs.
+- Studying the correlation between test scores and faculty ratings.
+- Examining patterns in alumni donations based on completed courses and enrollment status.
+- Understanding dropout rates and their relation to academic performance and faculty ratings.
+
+## Example Analysis
+1. **Enrollment Status Analysis**:
+    - Calculate the percentage of students who have completed, dropped, or are currently enrolled in each program.
+2. **Test Score Distribution**:
+    - Plot the distribution of test scores to identify the performance trends among students.
+3. **Faculty Rating vs. Test Score**:
+    - Analyze the relationship between faculty ratings and student test scores to see if higher ratings correlate with better performance.
+4. **Alumni Donations**:
+    - Determine the factors that influence alumni donations by examining the relationship between donations, completed courses, and enrollment status.
+
+This dataset provides a comprehensive view of student engagement and performance, enabling educators and administrators to make data-driven decisions to improve educational outcomes.
+"
