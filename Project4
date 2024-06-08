@@ -1,0 +1,39 @@
+"# Customer Financial Data Dataset
+
+## Description
+This dataset comprises records of customer financial data, including their assets under management, net profit margins, churn status, acquisition costs, investment types, and monthly financial flows. It provides insights into customer behaviors, investment preferences, and financial health, which can be used for various analyses, such as predicting customer churn and understanding investment trends.
+
+## Columns
+1. **Date**: The date when the record was captured.
+2. **CustomerID**: A unique identifier for each customer, formatted as a UUID.
+3. **Age**: The age of the customer.
+4. **AssetsUnderManagement**: The total value of the financial assets that the customer has under management, in the local currency.
+5. **NetProfitMargin**: The net profit margin of the customer's investments, expressed as a percentage.
+6. **CustomerChurn**: A boolean value indicating whether the customer has churned (left the service) or not (`TRUE` for churned, `FALSE` for active).
+7. **CostPerAcquisition**: The cost incurred to acquire the customer, in the local currency.
+8. **InvestmentType**: The type of investment the customer is engaged in (e.g., Cryptocurrency, Mutual Funds, Bonds, Stocks, Real Estate).
+9. **MonthlyInflow**: The monthly inflow of funds into the customer's account, in the local currency.
+10. **MonthlyOutflow**: The monthly outflow of funds from the customer's account, in the local currency.
+11. **CustomerFeedback**: Textual feedback provided by the customer.
+12. **Churn Flag**: A binary flag indicating whether the customer has churned (`1` for churned, `0` for active).
+
+## Usage
+This dataset can be utilized for:
+- Analyzing customer churn patterns and identifying potential risk factors.
+- Understanding the financial behaviors and preferences of customers based on their investment types.
+- Predicting customer retention using machine learning models.
+- Analyzing the relationship between customer feedback and churn status.
+- Calculating the average cost per acquisition and its impact on net profit margins.
+
+## Example Analyses
+1. **Churn Analysis**:
+    - Calculate the churn rate for different investment types to identify high-risk categories.
+2. **Financial Health Analysis**:
+    - Assess the net profit margins and monthly cash flows to understand the financial health of customers.
+3. **Customer Feedback Sentiment**:
+    - Perform sentiment analysis on customer feedback to gauge overall satisfaction and correlate it with churn status.
+4. **Cost Analysis**:
+    - Analyze the cost per acquisition across different age groups and investment types to optimize marketing spend.
+
+This dataset provides a comprehensive view of customer financial activities and can be used to derive meaningful insights for strategic decision-making and improving customer engagement.
+"
