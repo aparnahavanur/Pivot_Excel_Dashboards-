@@ -1,0 +1,47 @@
+"# Property Rental Dataset
+
+## Description
+This dataset contains records of property rentals, capturing various Key Performance Indicators (KPIs) such as monthly revenue, rental length, maintenance costs, and customer satisfaction. Each row represents a record for a specific property, providing insights into the performance and management of rental properties.
+
+## Columns
+1. **Date**: The date when the property data was recorded.
+2. **PropertyID**: A unique identifier for each property.
+3. **PropertyType**: The type of property (e.g., Apartment).
+4. **IsOccupied**: A boolean flag indicating whether the property is currently occupied (TRUE or FALSE).
+5. **MonthlyRevenue**: The revenue generated from the property in a month.
+6. **RentalLength**: The duration of the rental period in months.
+7. **MaintenanceCost**: The cost incurred for maintenance of the property.
+8. **MaintenanceIssueLogged**: A textual description of the maintenance issue logged.
+9. **CustomerSatisfaction**: The satisfaction rating of the customer, typically a numerical value.
+10. **OccupancyFlag**: A binary flag indicating occupancy (1 for occupied, 0 for not occupied).
+11. **NonZeroRevenueFlag**: A binary flag indicating if the revenue is non-zero (1 for non-zero revenue, 0 for zero revenue).
+12. **NonZeroRentalLength**: A binary flag indicating if the rental length is non-zero (1 for non-zero rental length, 0 for zero rental length).
+
+## Usage
+This dataset can be utilized for:
+- Analyzing rental revenue and identifying trends over time.
+- Evaluating the average rental length and optimizing rental agreements.
+- Assessing maintenance costs and identifying properties with high maintenance needs.
+- Measuring customer satisfaction and identifying areas for improvement in property management.
+- Studying occupancy rates and optimizing property usage.
+- Validating the effectiveness of maintenance issue resolution.
+
+## Example Analyses
+1. **Revenue Analysis**:
+    - Calculate the average monthly revenue and identify properties with the highest and lowest earnings.
+2. **Occupancy Analysis**:
+    - Evaluate occupancy rates across different property types and time periods.
+3. **Maintenance Cost Assessment**:
+    - Analyze maintenance costs and identify properties with frequent and high maintenance expenses.
+4. **Customer Satisfaction**:
+    - Assess customer satisfaction scores and correlate them with maintenance costs and rental length.
+5. **Rental Length Evaluation**:
+    - Study the rental length distribution and identify common rental periods.
+
+## Data Quality Notes
+- Ensure that monthly revenue and maintenance cost values are accurately recorded.
+- Validate the consistency of occupancy and non-zero flags with the actual data.
+- Confirm the correctness of customer satisfaction ratings and textual descriptions of maintenance issues.
+
+This dataset provides valuable insights into property rental management, allowing for detailed analysis and optimization of revenue, occupancy, and maintenance processes.
+"
