@@ -1,1 +1,42 @@
+"# E-Commerce Performance Metrics Dataset
+
+## Description
+This dataset contains e-commerce performance metrics for various device types over different dates. It captures key performance indicators (KPIs) such as conversion rate, cart abandonment rate, average order value, customer lifetime value, and time spent on site. Additionally, it includes information on the top selling product and the customer geographic distribution.
+
+## Columns
+1. **Date**: The date on which the data is recorded.
+2. **Device Type**: The type of device used by customers (e.g., Desktop, Mobile, Tablet).
+3. **Conversion Rate**: The percentage of visitors who make a purchase.
+4. **Cart Abandonment Rate**: The percentage of visitors who add items to their cart but do not complete the purchase.
+5. **Average Order Value**: The average value of an order.
+6. **Customer Lifetime Value**: The predicted net profit attributed to the entire future relationship with a customer.
+7. **Time Spent on Site**: The average amount of time visitors spend on the site.
+8. **Top Selling Product**: The product that had the highest sales.
+9. **Customer Geographic Distribution**: The geographic location with the most customers.
+
+## Usage
+This dataset can be utilized for:
+- Analyzing the performance of different device types.
+- Identifying trends in conversion rates and cart abandonment rates.
+- Evaluating the effectiveness of marketing campaigns by monitoring average order values and customer lifetime values.
+- Understanding user behavior through time spent on site.
+- Studying the geographic distribution of customers to tailor marketing efforts.
+
+## Example Analyses
+1. **Device Performance Analysis**:
+    - Compare conversion rates and cart abandonment rates across different device types.
+2. **Customer Value Analysis**:
+    - Analyze the average order value and customer lifetime value to identify high-value customer segments.
+3. **Time on Site**:
+    - Study the time spent on site to understand user engagement and optimize website design.
+4. **Geographic Distribution**:
+    - Examine the geographic distribution of customers to identify key markets and regional preferences.
+
+## Data Quality Notes
+- Ensure that the conversion rates and cart abandonment rates are accurately recorded to provide meaningful insights.
+- Validate the correctness of the average order value and customer lifetime value to ensure accurate analysis.
+- Confirm that the time spent on site is correctly logged to provide accurate engagement metrics.
+
+This dataset provides valuable insights into e-commerce performance, allowing for detailed analysis and optimization of marketing strategies, user experience, and customer segmentation.
+"
 
