@@ -1,0 +1,23 @@
+"# Telecom KPI Dataset
+
+## Description
+This dataset contains 1000 rows of telecom user data, including various KPI metrics for analysis. The key metrics included are ARPU (Average Revenue Per User), Churn Rate, Network Latency, and Customer Complaints. Additional columns include User ID, Subscription Plan, and Region.
+
+## Columns
+1. **User ID**: Unique identifier for each user.
+2. **Subscription Plan**: Type of plan the user is subscribed to (e.g., Basic, Standard, Premium).
+3. **Region**: Geographical region where the user is located.
+4. **ARPU (Average Revenue Per User)**: Monthly revenue generated from each user.
+5. **Churn Rate**: Indicator if the user has churned (left the service) within the period (0 or 1).
+6. **Network Latency**: Average network latency experienced by the user (in milliseconds).
+7. **Customer Complaints**: Number of complaints registered by the user within the period.
+
+## Usage
+This dataset can be used to analyze various aspects of telecom service performance, including usage patterns, network coverage, customer lifetime value distribution, and customer service response time. It is suitable for creating pivot tables and charts in Excel for detailed analysis.
+
+## Example Charts
+1. **Usage Patterns**: Bar chart showing the distribution of users across different subscription plans.
+2. **Network Coverage**: Pie chart showing user distribution across different regions.
+3. **Customer Lifetime Value Distribution**: Histogram showing the distribution of ARPU values.
+4. **Customer Service Response Time**: Line chart showing average network latency over different regions or subscription plans.
+"
