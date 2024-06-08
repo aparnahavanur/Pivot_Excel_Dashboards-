@@ -1,0 +1,25 @@
+"# Energy KPI Dataset
+
+## Description
+This dataset contains 1000 rows of energy production data, including various KPI metrics for analysis. The key metrics included are Energy Production, Carbon Footprint, System Efficiency, Maintenance Costs, System Downtime, and Customer Feedback Score. Additional columns include Date, Energy Source, and Region.
+
+## Columns
+1. **Date**: Date of the record.
+2. **Energy Source**: Type of energy source (e.g., Solar, Wind, Hydro, Coal, Natural Gas).
+3. **Region**: Geographical region where the energy is produced.
+4. **Energy Production (MWh)**: Amount of energy produced in megawatt-hours.
+5. **Carbon Footprint (kg CO2)**: Carbon emissions associated with the energy production in kilograms of CO2.
+6. **System Efficiency (%)**: Efficiency of the energy production system as a percentage.
+7. **Maintenance Costs ($)**: Costs incurred for maintenance of the energy production system in dollars.
+8. **System Downtime (hours)**: Hours of downtime of the energy production system.
+9. **Customer Feedback Score**: Customer feedback score ranging from 1 to 10.
+
+## Usage
+This dataset can be used to analyze various aspects of energy production performance, including production by source, seasonal variations, system downtime, and customer feedback. It is suitable for creating pivot tables and charts in Excel for detailed analysis.
+
+## Example Charts
+1. **Production by Source**: Column chart showing the total energy production by each energy source.
+2. **Seasonal Variations**: Line chart showing seasonal variations in energy production.
+3. **System Downtime**: Bar chart showing the total system downtime by region.
+4. **Customer Feedback**: Bar chart showing the average customer feedback score by region.
+"
